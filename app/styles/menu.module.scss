@@ -1,0 +1,29 @@
+.menu {
+  & svg {
+    color: var(--gray);
+  }
+
+  & p {
+    color: var(--dark-gunmetal);
+  }
+
+  &.active {
+    svg {
+      color: var(--primary);
+    }
+
+    p {
+      color: var(--primary);
+    }
+  }
+
+  &:hover:not(.active) {
+    p {
+      color: var(--purple);
+    }
+
+    svg {
+      color: var(--purple);
+    }
+  }
+}

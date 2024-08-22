@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+    --main: #F5F7FB;
+    --primary: #445AF7;
+    --purple: #7756D8;
+    --gray-300:#E0E1E5;
+    --gray: #737a85;
+    --dark-gunmetal: #1D2935;
+    --blue-chalk: #EEEAFF;
+    --soapstone-white: #FCFBFC;
+    --blue-lavender: #E3EAFB;
+    --white:#ffffff;
+    
+
+}
+
+@font-face {
+  font-family: "Peyda-Medium";
+  font-style: normal;
+  src: url("/fonts/payda/Peyda-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Peyda-Black";
+  font-style: normal;
+  src: url("/fonts/payda/Peyda-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Peyda-Bold";
+  font-style: normal;
+  src: url("/fonts/payda/Peyda-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Peyda-ExtraBold";
+  font-style: normal;
+  src: url("/fonts/payda/Peyda-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "peyda-extralight";
+  font-style: normal;
+  src: url("/fonts/payda/peyda-extralight.ttf") format("truetype");
+}@font-face {
+  font-family: "peyda-light";
+  font-style: normal;
+  src: url("/fonts/payda/peyda-light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Peyda-SemiBold";
+  font-style: normal;
+  src: url("/fonts/payda/Peyda-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Peyda-Thin";
+  font-style: normal;
+  src: url("/fonts/payda/Peyda-Thin.ttf") format("truetype");
+} 
+
+
+body {
+  direction: rtl;
+  height: 100%;
+  font-family: "Peyda-Medium","Peyda-SemiBold","Peyda-Thin", serif;
+  /* overflow-y: hidden; */
+}
+html{
+  height: 100%;
+}
+.font-black{
+  font-family:"Peyda-Black" ;
+}
+.font-extrabold{
+  font-family:"Peyda-ExtraBold" ;
+}
+.font-bold{
+  font-family:"Peyda-Bold" ;
+}
+
+.font-extralight{
+  font-family: "peyda-extralight";
+}
+
+.font-light{
+  font-family: "peyda-light";
+}
+.blog-scrollbar::-webkit-scrollbar {
+  display: none;
+}

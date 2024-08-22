@@ -1,0 +1,9 @@
+.feature_card {
+  &:hover {
+    color: var(--white);
+
+    p {
+      color: var(--white);
+    }
+  }
+}
